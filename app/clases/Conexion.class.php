@@ -2,6 +2,7 @@
 class Conexion {
 	private static $conexion;
 
+	//Conexion
 	public static function abrir_conexion() {
 		if (!isset(self::$conexion)) {
 			try {
